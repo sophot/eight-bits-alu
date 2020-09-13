@@ -1,0 +1,125 @@
+$comment
+	File created using the following command:
+		vcd file test.msim.vcd -direction
+$end
+$date
+	Sat Dec 14 17:31:06 2019
+$end
+$version
+	ModelSim Version 10.3d
+$end
+$timescale
+	1ps
+$end
+
+$scope module test1_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # Cn $end
+$var reg 1 $ s0 $end
+$var reg 1 % s1 $end
+$var reg 1 & s2 $end
+$var wire 1 ' Cout $end
+$var wire 1 ( S $end
+$var wire 1 ) sampler $end
+
+$scope module i1 $end
+$var wire 1 * gnd $end
+$var wire 1 + vcc $end
+$var wire 1 , unknown $end
+$var tri1 1 - devclrn $end
+$var tri1 1 . devpor $end
+$var tri1 1 / devoe $end
+$var wire 1 0 S~output_o $end
+$var wire 1 1 Cout~output_o $end
+$var wire 1 2 B~input_o $end
+$var wire 1 3 s1~input_o $end
+$var wire 1 4 A~input_o $end
+$var wire 1 5 s0~input_o $end
+$var wire 1 6 inst12~1_combout $end
+$var wire 1 7 inst12~0_combout $end
+$var wire 1 8 s2~input_o $end
+$var wire 1 9 inst12~2_combout $end
+$var wire 1 : Cn~input_o $end
+$var wire 1 ; inst13~combout $end
+$var wire 1 < inst9~combout $end
+$var wire 1 = inst14~combout $end
+$var wire 1 > inst|inst5~combout $end
+$var wire 1 ? inst|inst6~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+1%
+1&
+0'
+1(
+x)
+0*
+1+
+x,
+1-
+1.
+1/
+10
+01
+02
+13
+04
+15
+16
+07
+18
+19
+0:
+0;
+0<
+0=
+1>
+0?
+$end
+#1000000
+1#
+1:
+0)
+#2000000
+1!
+0#
+14
+0:
+1)
+17
+#3000000
+1#
+1:
+0)
+#4000000
+1"
+0!
+0#
+12
+04
+0:
+1)
+07
+#5000000
+1#
+1:
+0)
+#6000000
+1!
+0#
+14
+0:
+1)
+17
+#7000000
+1#
+1:
+0)
+#8000000

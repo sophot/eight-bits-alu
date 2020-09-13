@@ -1,0 +1,37 @@
+# do EightBitALU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 05:00:35 on Dec 15,2019
+# vlog -work work EightBitALU.vo 
+# -- Compiling module EightBitALU
+# 
+# Top level modules:
+# 	EightBitALU
+# End time: 05:00:35 on Dec 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 05:00:35 on Dec 15,2019
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module EightBitALU_vlg_sample_tst
+# -- Compiling module EightBitALU_vlg_check_tst
+# -- Compiling module EightBitALU_vlg_vec_tst
+# 
+# Top level modules:
+# 	EightBitALU_vlg_vec_tst
+# End time: 05:00:35 on Dec 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "EightBitALU.do" 
+# Start time: 05:00:35 on Dec 15,2019
+# Loading work.EightBitALU_vlg_vec_tst
+# Loading work.EightBitALU
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading work.EightBitALU_vlg_sample_tst
+# Loading work.EightBitALU_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(440)
+#    Time: 8 us  Iteration: 0  Instance: /EightBitALU_vlg_vec_tst/tb_out
+# End time: 05:00:35 on Dec 15,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
